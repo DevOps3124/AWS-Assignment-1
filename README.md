@@ -27,7 +27,7 @@ We will use AWS Lambda and Simple Email Service (SES) and API Gateway.
 - This will send an email to this provided email address, a click on the link to verify.
 - click the "Send a Test Email" button. This will let us put in a recipient's email address, a subject, and a message and send it.
 
-# STEP -2 Setup Lambda
+# STEP -2 Setup Lambda function
 - Create an IAM Role and configure it!
 1. From AWS console, go to the IAM service —> click on Policies in the side menu —> click on the "Create Policy" button.
 2. In the policy creation page, go to the JSON tab and paste the below defined  permissions, then click Next.
@@ -51,4 +51,11 @@ We will use AWS Lambda and Simple Email Service (SES) and API Gateway.
 5. In the function creation screen, name your function, select the "Author from scratch" option, and choose Node.js as the runtime.
 6. Under "Change default execution role" choose the "Use an existing role" option 
 7. Click the "Create function" button to create the function.
+
+# STEP - 3 Setup API Gateway
+- Another AWS service we are going to use is API Gateway, which will enable our browser to send HTTP requests to the Lambda function we created.
+1. On lambda function page, expand the "Function overview" section and click on "Add trigger".
+2. choose API Gateway from the dropdown,  choose HTTP API as the API type, "Open" as the security mechanism, check the CORS checkbox option, then click "Add".
+3. we will be redirected to the "Configuration" tab of lambda function, showing us the new API Gateway trigger we just created. 
+- From there note the API endpoint, this is the URL we are going to be calling from our browser.
 
