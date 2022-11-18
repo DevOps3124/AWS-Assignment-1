@@ -2,6 +2,7 @@
 # CLIENT-SIDE
 1. Simple webpage to make request to the API Gateway
 (we will be using this simple webpge by just using HTML)
+- check form.html
 
 # BACKEND OVERVIEW -
 
