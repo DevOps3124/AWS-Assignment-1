@@ -2,7 +2,10 @@
 # CLIENT-SIDE
 1. Simple webpage to make request to the API Gateway
 (we will be using this simple webpge by just using HTML)
-- check form.html
+![Screenshot (401)](https://user-images.githubusercontent.com/117630401/202691068-c841e4bd-dc4a-43d0-8579-ea5676e4cf72.png)
+
+
+- check form.html for the code
 
 # BACKEND OVERVIEW -
 
