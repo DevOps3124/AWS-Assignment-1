@@ -14,7 +14,8 @@ We will use AWS Lambda and Simple Email Service (SES) and API Gateway.
 - AWS Lambda allows you to write server-side code to execute in response to events.
 - We will also use API Gateway which enables us to invoke Lambda functions via HTTP.
 
-![Screenshot (399)](https://user-images.githubusercontent.com/117630401/202645960-aa603fe3-2c56-4ad3-9bfb-31dad81f8b9f.png)
+![Screenshot (405)](https://user-images.githubusercontent.com/117630401/203511738-baed8598-6309-4eed-ac26-4168a79113a5.png)
+
 
 #Approach-
 - Our browser (JavaScript) will make a post request, with the form data in the request body, to an endpoint URL specified by AWS API Gateway
