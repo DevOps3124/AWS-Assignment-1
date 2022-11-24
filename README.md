@@ -64,3 +64,5 @@ We will use AWS Lambda and Simple Email Service (SES) and API Gateway.
 3. we will be redirected to the "Configuration" tab of lambda function, showing us the new API Gateway trigger we just created. 
 - From there note the API endpoint, this is the URL we are going to be calling from our browser.
 
+# STEP - 4 SQS (Simple Queue Service)
+
